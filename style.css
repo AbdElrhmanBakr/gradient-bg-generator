@@ -1,0 +1,64 @@
+body {
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow); /* Standard syntax */
+}
+
+h1 {
+  font: 600 3.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+#genNew {
+  margin: 1em 2em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: "Raleway";
+  cursor: pointer;
+  padding: 12px;
+  min-width: 100px;
+  border: 0px;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  border-radius: 8px;
+  margin: 5px 5px;
+}
+.btn-primary {
+  color: #ffffff;
+  background: rgb(48, 47, 50);
+}
+
+.btn-primary:hover {
+  color: rgb(48, 47, 50);
+  background: #fff;
+}
