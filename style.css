@@ -43,6 +43,7 @@ h3 {
   appearance: none;
   -webkit-appearance: none;
   font-family: "Raleway";
+  font-weight: 500;
   cursor: pointer;
   padding: 12px;
   min-width: 100px;
